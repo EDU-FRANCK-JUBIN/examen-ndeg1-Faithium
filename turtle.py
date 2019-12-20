@@ -50,7 +50,7 @@ gameFinished = False
 
 while gameFinished:
     for rat in rats:
-        rat.avancer
+        rat.avancer()
         if rat.estArrive():
             gameFinished = True
             break
